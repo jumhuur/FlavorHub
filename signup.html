@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🍽️ Sign Up - FlavorHub</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-utensils"></i>
+          <span>FlavorHub</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item actions">
+            <a href="login.html" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item actions">
+            <a href="signup.html" class="nav-link">Signup</a>
+          </li>
+          <li class="nav-item User">
+            <a href="signup.html" class="nav-link"></a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Signup Section -->
+    <section class="auth-section">
+      <div class="container">
+        <div class="auth-container">
+          <div class="auth-card">
+            <div class="auth-header">
+              <div class="auth-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FlavorHub</span>
+              </div>
+              <h1>Join FlavorHub!</h1>
+              <p>Create your account and start discovering amazing recipes</p>
+            </div>
+
+            <form class="auth-form" id="signupForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="First name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      placeholder="Last name"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <div class="input-group">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-group">
+                  <i class="fas fa-lock"></i>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Create a password"
+                    required
+                  />
+                </div>
+                <div class="password-strength">
+                  <div class="strength-bar">
+                    <div class="strength-fill"></div>
+                  </div>
+                  <span class="strength-text">Password strength</span>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary auth-btn">
+                <i class="fas fa-user-plus"></i> Create Account
+              </button>
+
+              <div class="auth-footer">
+                <p>
+                  Already have an account?
+                  <a href="login.html" class="auth-link">Sign in here</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="auth-image">
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Chef cooking"
+            />
+            <div class="auth-overlay">
+              <h2>Discover Amazing Recipes</h2>
+              <p>
+                Join thousands of food lovers exploring delicious cuisines from
+                around the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <i class="fas fa-utensils"></i>
+              <span>FlavorHub</span>
+            </div>
+            <p>
+              Discover amazing food from around the world. Your culinary journey
+              starts here.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="signup.html">Signup</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#">Chicken</a></li>
+              <li><a href="#">Vegetarian</a></li>
+              <li><a href="#">Dessert</a></li>
+              <li><a href="#">Seafood</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <div class="contact-info">
+              <p><i class="fas fa-envelope"></i> info@flavorhub.com</p>
+              <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 123 Food Street, Culinary
+                City
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 FlavorHub. All rights reserved. | Powered by
+            <a href="https://taysiir.net/" target="_blank">Taysiir inc</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/signup.js" type="module"></script>
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+  </body>
+</html>

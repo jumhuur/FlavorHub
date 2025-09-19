@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlavorHub - Discover Amazing Food</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-utensils"></i>
+          <span>FlavorHub</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item actions">
+            <a href="login.html" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item actions">
+            <a href="signup.html" class="nav-link">Signup</a>
+          </li>
+          <li class="nav-item User">
+            <a href="signup.html" class="nav-link"></a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="highlight">Discover</span> Amazing Food
+        </h1>
+        <p class="hero-subtitle">
+          Explore delicious recipes from around the world and find your next
+          favorite meal
+        </p>
+        <div class="hero-buttons">
+          <a href="#categories" class="btn btn-primary">
+            <i class="fas fa-search"></i> Explore Categories
+          </a>
+          <a href="signup.html" class="btn btn-secondary reg">
+            <i class="fas fa-user-plus"></i> Register Now
+          </a>
+          <a href="#logout" class="btn btn-secondary log">
+            <i class="fa-solid fa-right-from-bracket"></i> logout
+          </a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <i class="fas fa-utensils"></i>
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Recipes</span>
+        </div>
+        <div class="stat">
+          <i class="fas fa-globe"></i>
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="stat">
+          <i class="fas fa-users"></i>
+          <span class="stat-number">10K+</span>
+          <span class="stat-label">Users</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">🍽️ Food Categories</h2>
+          <p class="section-subtitle">
+            Browse through our extensive collection of delicious food categories
+          </p>
+        </div>
+        <div class="grid" id="categoriesGrid">
+          <!-- Cards will be inserted here dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Choose FlavorHub?</h2>
+          <p class="section-subtitle">
+            Discover what makes us the best food discovery platform
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-globe-americas"></i>
+            </div>
+            <h3>Global Cuisines</h3>
+            <p>
+              Explore authentic recipes from over 50 countries around the world
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Quick & Easy</h3>
+            <p>
+              Find recipes that fit your schedule, from 15-minute meals to
+              elaborate feasts
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Healthy Options</h3>
+            <p>
+              Discover nutritious and delicious meals for every dietary
+              preference
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <i class="fas fa-utensils"></i>
+              <span>FlavorHub</span>
+            </div>
+            <p>
+              Discover amazing food from around the world. Your culinary journey
+              starts here.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="actions"><a href="login.html">Login</a></li>
+              <li class="actions"><a href="signup.html">Signup</a></li>
+              <li class="User"><a href="#">Login</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#">Chicken</a></li>
+              <li><a href="#">Vegetarian</a></li>
+              <li><a href="#">Dessert</a></li>
+              <li><a href="#">Seafood</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <div class="contact-info">
+              <p><i class="fas fa-envelope"></i> info@flavorhub.com</p>
+              <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 123 Food Street, Culinary
+                City
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 FlavorHub. All rights reserved. | Powered by
+            <a href="https://taysiir.net/" target="_blank">Taysiir inc</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/home.js" type="module"></script>
+  </body>
+</html>
